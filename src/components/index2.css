@@ -1,0 +1,32 @@
+.container122{
+  display: flex;
+  
+}
+.left122{
+  /* border: 1px solid black; */
+  padding-top: 1rem;
+  background-color: #28395e;
+color: WHITE;
+  width: 17rem;
+}
+  
+.right{
+
+  width: 60%;
+  padding-left: 3rem;
+  padding-top: 1rem  ;
+}
+h3{
+  text-align: center;
+  line-height: 1.2rem;
+  color: BLACK;
+  margin: 0.5rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: .5rem;
+}
+.project{
+  padding-top: 3rem;
+}
+  

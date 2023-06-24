@@ -1,0 +1,31 @@
+.fuz{
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5rem;
+    /* cursor: pointer; */
+    padding-left: 5rem;
+    gap: 3rem;
+    padding-right: 35rem;
+}
+.fuz1{
+    background-color: white;
+    color: black !important;
+    padding-top: 1rem;
+   
+}
+.box{
+    color: black;
+    height: 520px;
+    border-radius: 1rem;
+    width: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: .5s;
+}
+.box:hover{
+   transform:scale3d(1.1,1.1,1.1);
+}
+#uiz{
+    border-radius: 1rem;
+}
