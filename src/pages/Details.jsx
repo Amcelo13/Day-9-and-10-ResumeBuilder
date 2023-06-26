@@ -132,6 +132,11 @@ function Details() {
     dispatch(deleteDraft(location.state));
     // console.log(templateValue)
     openNotification('top')
+    
+    setTimeout(() => {
+      navigate('/home')
+    }, 2000);
+    
   };
 
   //changing preview templates
@@ -211,12 +216,34 @@ function Details() {
   const handleClick = () => {
     navigate("/home");
   };
+  const handleReset = () => {
+    setItem({
+      cgpa: "",
+      email: "",
+      gender: "",
+      graduatingYear: "",
+      intro: "",
+      name: "",
+      phone: "",
+      prefix: "",
+      project1: "",
+      project2: "",
+      school: "",
+      schoolMarks: "",
+      schoolYear: "",
+      skill: "",
+      university: "",
+      website: "",
+    })
 
+  }
   return (
     
     <div className="hui" style={{ paddingBottom: "2rem" }}>
     {contextHolder}
 
+
+  
       <button
         style={{
           padding: "1rem",
@@ -457,7 +484,7 @@ function Details() {
             <Button type="primary" onClick={() => handleDraft(templateValue)}>
               Save as Draft
             </Button>
-            <Button type="primary" htmlType="reset">
+            <Button type="primary" htmlType="reset" onClick={handleReset}>
               Reset
             </Button>
           </Space>
