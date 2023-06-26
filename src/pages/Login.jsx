@@ -48,7 +48,7 @@ function Login() {
             onChange={handleMobileNumberChange}
           />
           <br />
-          {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
+          {errorMessage && <p style={{ color: "black" }}>{errorMessage}</p>}
           <button
 
             type="submit"
