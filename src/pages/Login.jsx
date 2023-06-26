@@ -40,6 +40,7 @@ function Login() {
         <form onSubmit={handleSubmit}>
          <h2> Mobile Number </h2>{" "}
           <input
+            maxlength="10"
             type="tel"
             pattern="[0-9]{10}"
             style={{borderRadius:'1rem', padding: "1rem",color:'white', outline: "none", width: "20rem" ,border:'1px solid black',backgroundColor:'transparent'}}
